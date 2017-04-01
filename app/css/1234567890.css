@@ -1,0 +1,15 @@
+/* Switch icon colors */
+
+md-input-container:not(.md-input-invalid) > md-icon.username,
+md-input-container:not(.md-input-invalid) > md-icon.email,
+md-input-container:not(.md-input-invalid) > md-icon.password
+{
+	color:blue;
+	}
+
+md-input-container.md-input-invalid > md-icon.username,
+md-input-container.md-input-invalid > md-icon.email,
+md-input-container.md-input-invalid > md-icon.password
+{
+	color:red;
+	}	
